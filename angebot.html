@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Angebot anfordern</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5 d-flex justify-content-center">
+        <div style="max-width: 500px;"> <!-- Optional: Maximale Breite -->
+            <h1>Angebot anfordern</h1>
+            <p>
+                Sie sind nur einen Schritt davon entfernt, Ihr Traumauto zu besitzen! Geben Sie einfach Ihre Kontaktdaten ein, und einer unserer Verkaufsberater wird sich in Kürze mit Ihnen in Verbindung setzen. Lassen Sie uns gemeinsam die Straße erobern!
+            </p>
+    
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="form-label">Email</label>
+                <input type="tel" class="form-control" id="phone" name="phone">
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="form-label">Telefonnummer</label>
+                <input type="tel" class="form-control" id="phone" name="phone">
+            </div>
+            <div class="mb-3">
+                <label for="address" class="form-label">Adresse</label>
+                <input type="text" class="form-control" id="address" name="address" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Angebot anfordern</button>
+        </form>
+    </div>
+    <script src="angebot.js"></script>
+</body>
+</html>
